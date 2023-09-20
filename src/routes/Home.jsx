@@ -1,6 +1,6 @@
-
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import { Link } from 'react-router-dom';
 
 
 
@@ -21,11 +21,6 @@ export const Home = () => {
 
       <br></br>
 
-
-
-
-
-
       {/* <img src="https://free4kwallpapers.com/uploads/originals/2021/02/22/dotonbori-osaka.-wallpaper_.jpg" alt=""/> */}
 
       <center>
@@ -36,7 +31,9 @@ export const Home = () => {
             <Card.Text>
               Ven a conocer nuestra cocina Japonesa de autor.
             </Card.Text>
-            <Button variant="primary">Contáctanos</Button>
+            <Link to='contacto'>
+           <Button variant="warning">Contáctanos</Button>
+           </Link>
           </Card.Body>
         </Card>
       </center>

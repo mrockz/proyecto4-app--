@@ -37,7 +37,7 @@ export const Contacto = () => {
       </Form.Group>
       
       
-      <Button variant="primary" type="submit">
+      <Button variant="warning" type="submit">
         Enviar
       </Button>
 
