@@ -14,6 +14,7 @@ export const NavBar = () => {
           <Nav className="me-auto">
             <Nav.Link as={Link} to="/proyecto4-app--/">Home</Nav.Link>
             <Nav.Link as={Link} to="/proyecto4-app--/about">Nuestro Restaurant</Nav.Link>
+            <Nav.Link as={Link} to="/proyecto4-app--/blog">Blog</Nav.Link>
             <Nav.Link as={Link} to="/proyecto4-app--/contacto">Contacto</Nav.Link>
             
             
